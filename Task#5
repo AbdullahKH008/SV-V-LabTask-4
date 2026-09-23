@@ -1,0 +1,6 @@
+Verification Activity:
+
+Check 1: 
+Invalid Transition: IDLE → DELIVERING
+Can this happen? No — there is no row in the table with From State = IDLE and To State = DELIVERING. The only transition out of IDLE is T-01 (IDLE → NAVIGATING on Delivery Request Received).
+Requirement violated if it did happen: R-06, which states DELIVERING may only be entered from NAVIGATING once the destination has been reached.
