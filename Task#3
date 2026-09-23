@@ -1,0 +1,11 @@
+Events and Conditions:
+
+|Event ID|Event/Condition          |Description                                                        |
+|--------|-------------------------|-------------------------------------------------------------------|
+|E-01    |Delivery Request Received|A new delivery task is assigned to the robot while it is idle.     |
+|E-02    |Obstacle Detected        |An obstacle is sensed in the robot's path during navigation.       |
+|E-03    |Obstacle Avoided         |The robot has successfully maneuvered around the detected obstacle.|
+|E-04    |Destination Reached      |The robot arrives at the delivery destination.                     |
+|E-05    |Delivery Successful      |The package has been handed off / delivered at the destination.    |
+|E-06    |Critical Battery         |Battery level drops below the safe operating threshold.            |
+|E-07    |Warehouse Reached        |The robot arrives back at the warehouse.                           |
